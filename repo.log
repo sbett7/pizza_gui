@@ -1,0 +1,660 @@
+* 7dd89c9 : Updated javadoc
+* 63f4b05 : Rebuilt Javadoc
+* 4fd3c96 : Removed load button from GUI and updated GUI Documentation.
+* 2617796 : Fixed JavaDoc Exception Description for Pizza
+* 50b167a : Commit Bug -_-
+*   cba8a7f : Merge branch 'GUIDesign' of https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git into GUIDesign
+|\  
+| * f7587bd : Updated Exception descriptions for the Customer classes
+* | a67932c : Should fix the commit bug
+* | beb1d0f : Fixed RestaurantCustomerTest and Screenshots.doc
+|/  
+* 700a4f3 : Taken out the single order panel view
+* 5d0eef0 : Updated documentation
+* 9e12f3a : Updated exception documentation and cleaned up the PizzaGUI class.
+* 0411b41 : Added Extra Text Files, Screenshots File, LoghandlerCustomer Tests
+*   d718232 : Merge branch 'GUIDesign' of https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git into GUIDesign
+|\  
+| * 5d8bf48 : Added Single Order Details Panel.
+* |   9939792 : Merge branch 'GUIDesign' of https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git into GUIDesign
+|\ \  
+| |/  
+| * 98c8caa : Updated the GUI with an extra tab to list details about a specific order number
+* |   6e76b62 : Added Exception specification, Added Tests, fixed loghandler
+|\ \  
+| |/  
+| * 3ba9f85 : Added prompts to load and reset button. Changed load to import log file and select file to store name.
+| * 01219cb : Updated Customer methods javadoc with more information regarding exceptions
+| * 714082c : Cleaned up GUI table classes and updated GUI to only load data first time the tabbed item is selected.
+* | aa7c6b8 : Added Distance Pizza tests, made small changes
+|/  
+* d949d0a : Updated GUI presentation and fixed PizzaTests and Customer implementation
+* 58caa1b : Added documentation for the GUI and Customer classes.
+* 40e99b1 : Updated Pizza tests with order and delivery time specifics.
+* ca8755e : Updated table format to print to 2 decimal places.
+* 91952dc : Nope fixed it this time
+* db42c76 : Nope fixed it this time.
+* c8ddda5 : Fixed Pizza to throw correct Exceptions and fixed PizzaTests to spec.
+* 41eb92e : Fixed Total Delivery Distance and Updated PizzaCalcs widget positioning
+* 941f768 : Fixed the Costings tab, albiet in a crude way
+* 21a998c : Added/Fixed More tests, Fixed checkDeliveryTime.
+* 8482a57 : fixed the exception error with log3
+*   80dbe25 : Merge branch 'GUIDesign' of https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git into GUIDesign
+|\  
+| * 6d33024 : Merged Pizza delivery time fix into branch
+| * fe79e9f : Fixed issues with the Pizza tests.
+* | 81cc6e6 : trying to fix my branch
+* | b4c38df : Fixed some exceptions in LogHandlerPizzaTests
+|/  
+*   8ede358 : Merge branch 'PizzaTests' into GUIDesign
+|\  
+| * 8d38fd3 : Fixed broken tests and added comment headers to each test.
+| * a98ff23 : removed calls to LocalTime.now. Also removed failed duplicate test
+* | 6197568 : GUI now loads data.  Columns are locked in place now.
+* |   a1e5f57 : Merge branch 'CustomerImplementation' into GUIDesign
+|\ \  
+| * | 3159467 : Updated CustomerLogHandler to throw new exceptions for non customer exceptions
+| * | 15bec84 : Finalised (added missing) tests for Customer
+| * | ec78a7d : Removed unused variables in tests
+| * | d5fbb24 : Fixed CustomerFactoryTests
+| * | f440479 : Last additions before bed.
+| * | 4628576 : Small Changes
+| * | 9284901 : Added and Changed CustomerTests
+| * | f31c7d5 : Changed LogHandlerPizzaTests expected Exception to match format.
+| * |   abf14a0 : Implemented PizzaFactory, PizzaLogHandler, changed .now() for PizzaFactoryTests
+| |\ \  
+| | * | cd23b58 : Implemented restaurant methods.
+| | * | 7b0e3dc : fixed some tests and updated factory and loghandler implementation
+| * | | bdcb0f6 : Pizza Implemented, small changes to Pizza tests. All tests pass
+| * | |   4bfb08f : Merge remote-tracking branch 'michael/CustomerImplementation'
+| |\ \ \  
+| | |/ /  
+| | * | c25fbde : started implementation of customer log handler class
+| | * |   1405721 : Merge branch 'CustomerImplementation' into MichaelLocal
+| | |\ \  
+| | | * | 530d158 : CustomerFactory Changes
+| | | * | 214b573 : Customer Fixes
+| | | * | 020dcf6 : initial LogHandlerCustomerTests, just need to finish PopulateCustomerDataset tests
+| | * | | eb5c58f : Added implementation to Customers and made some fixes to test cases.
+| | |/ /  
+| | * | a943682 : Fixed CustomerTests and Added CustomerFactoryTests.
+| * | |   2bb3a03 : Merge remote-tracking branch 'michael/PizzaTests'
+| |\ \ \  
+| | |/ /  
+| |/| /   
+| | |/    
+| | * a7bd1d5 : Fixed PizzaFactory tests to create a pizza based on the pizza log codes.
+| | * 77426f1 : Added assertEquals on fail comment to some tests.
+| | * 06d00ee : Added string constant for exception txt file dir.
+| | * 2565d5a : Added more tests to LogHandlerPizzaTests. Added .txt files for tests.
+| | * 9d3310c : Changed Tests to access LogHandler static methods rather than object.
+| | * 6692595 : Fixed log file constants in restaurant pizza tests to access a full path
+| * | 7904a6b : Test Cases for basic functionality of Customer Class
+* | | d96ee46 : Table now fills GUI, and methods to fill data structs have been added.
+* | | 03f092a : added JTable data population methods.
+* | | c3f51fe : Added classes extending DefaultTableModel and JPanel to be used for GUI
+* | | f74e4a7 : Changed filechooser to pass the string path to the restaurant.
+* | | 8f46c22 : Added FileChooser button and hooked up FileChooser to get log file.
+| |/  
+|/|   
+* | be70e70 : Added createPizza tests for LogHandler
+* | 4c2fb3d : Added tests for Restaurant class.
+* | 51365f6 : Added VegetarianPizza and MeatLoverPizza Tests.
+* | c3f2ce9 : Added PizzaTests and updated PizzaFactoryTests.
+* | a3e3ab3 : Added PizzaFactory quantity and pizza code tests.
+|/  
+* 434d3ad : .
+* f748592 : .
+* dfba347 : .
+* e951c1e : .commit 7dd89c90f3424de95be117200967b872dac0e0ca
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Fri Jun 2 13:56:19 2017 +1000
+
+    Updated javadoc
+
+commit 63f4b05923d9c6731236e6e5ed6034fac1e40d4c
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Fri Jun 2 13:53:24 2017 +1000
+
+    Rebuilt Javadoc
+
+commit 4fd3c9639057a7af47c091ff56ca029a7c272472
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Fri Jun 2 13:49:22 2017 +1000
+
+    Removed load button from GUI and updated GUI Documentation.
+
+commit 26177965a794df50948ce7356f7d7b24e6ef6c0a
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 23:44:28 2017 +1000
+
+    Fixed JavaDoc Exception Description for Pizza
+
+commit 50b167a6a0ea4830e9b175dabcca6bc6b7e477b8
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 23:33:01 2017 +1000
+
+    Commit Bug -_-
+
+commit cba8a7fec1f80b941a528078f95f07c09f0bf430
+Merge: a67932c f7587bd
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 23:31:38 2017 +1000
+
+    Merge branch 'GUIDesign' of https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git into GUIDesign
+
+commit a67932c318fab9864cfc925e3b0e5f94acc64cd7
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 23:30:43 2017 +1000
+
+    Should fix the commit bug
+
+commit beb1d0f03a84a8d43ef03aaa48ce93ca94e61ccb
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 23:24:37 2017 +1000
+
+    Fixed RestaurantCustomerTest and Screenshots.doc
+
+commit f7587bdca241b46ed01a8340550a97a0fba74262
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Jun 1 23:22:37 2017 +1000
+
+    Updated Exception descriptions for the Customer classes
+
+commit 700a4f36d1216b5fd84ad52f4aebbfd1fdb122f2
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Jun 1 23:05:56 2017 +1000
+
+    Taken out the single order panel view
+
+commit 5d0eef0d00a1c1583a62ae975968d09421cb57a4
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Jun 1 20:05:50 2017 +1000
+
+    Updated documentation
+
+commit 9e12f3abe297f6737ff07715a31944eaa8e31188
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Jun 1 17:11:17 2017 +1000
+
+    Updated exception documentation and cleaned up the PizzaGUI class.
+
+commit 0411b418be94abe60866ab95e0ca5d0d3540ca79
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 16:13:13 2017 +1000
+
+    Added Extra Text Files, Screenshots File, LoghandlerCustomer Tests
+
+commit d718232a3426d2d42620cb553cc77772a21a577e
+Merge: 9939792 5d8bf48
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 14:45:26 2017 +1000
+
+    Merge branch 'GUIDesign' of https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git into GUIDesign
+
+commit 99397920e929577aa9f4a116ae5589eedc369a55
+Merge: 6e76b62 98c8caa
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 14:44:53 2017 +1000
+
+    Merge branch 'GUIDesign' of
+    https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git
+    into GUIDesign
+    
+    Conflicts:
+            src/asgn2GUIs/CustomerDataTablePanel.java
+            src/asgn2GUIs/DataTablePanel.java
+            src/asgn2GUIs/PizzaDataTablePanel.java
+
+commit 5d8bf4813d412cae3b201da362a769381d651fba
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Jun 1 14:38:02 2017 +1000
+
+    Added Single Order Details Panel.
+
+commit 6e76b621453306bd6b6f57ba81d87e6a5932538a
+Merge: aa7c6b8 3ba9f85
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 14:11:52 2017 +1000
+
+    Added Exception specification, Added Tests, fixed loghandler
+
+commit 98c8caa29f91e15be78da90f3900af8faebb31dd
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Jun 1 13:40:43 2017 +1000
+
+    Updated the GUI with an extra tab to list details about a specific order
+    number
+
+commit aa7c6b8acff29d89a9c5cb1a1fde363a44488aa2
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu Jun 1 12:32:30 2017 +1000
+
+    Added Distance Pizza tests, made small changes
+
+commit 3ba9f853baa9b32f0597021916d5fa8d6b078a71
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Jun 1 11:22:08 2017 +1000
+
+    Added prompts to load and reset button. Changed load to import log file
+    and select file to store name.
+
+commit 01219cb2f08c9fc76a31da92d5a69ee5d6e62823
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 31 22:57:05 2017 +1000
+
+    Updated Customer methods javadoc with more information regarding
+    exceptions
+
+commit 714082c8f8222b4149b55c856c49c5c9745ab908
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 31 22:36:11 2017 +1000
+
+    Cleaned up GUI table classes and updated GUI to only load data first
+    time the tabbed item is selected.
+
+commit d949d0a75a0bd4bdc3de195a65e21bea95994ecd
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Tue May 30 16:13:26 2017 +1000
+
+    Updated GUI presentation and fixed PizzaTests and Customer
+    implementation
+
+commit 58caa1b7ce0ea04f75df2a40a45fd77bd4fd28a3
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Tue May 30 12:17:17 2017 +1000
+
+    Added documentation for the GUI and Customer classes.
+
+commit 40e99b1b32d79e6b3a6a7042cfdbc03a466b34fd
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 29 13:36:39 2017 +1000
+
+    Updated Pizza tests with order and delivery time specifics.
+
+commit ca8755e23798cbb59ddc01ee56f5f22fe7783979
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 29 12:51:15 2017 +1000
+
+    Updated table format to print to 2 decimal places.
+
+commit 91952dc7b660d5696f4557008c2b051bb0fba1c9
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 21 21:13:19 2017 +1000
+
+    Nope fixed it this time
+
+commit db42c768ec1a51cda3da0bb75d82d14df62decef
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 21 21:11:34 2017 +1000
+
+    Nope fixed it this time.
+
+commit c8ddda5e870bad1e4ed0d9df2e3a63d045ded069
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 21 21:06:27 2017 +1000
+
+    Fixed Pizza to throw correct Exceptions and fixed PizzaTests to spec.
+
+commit 41eb92e28a664369a59d3d42080cd186e642ee49
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Sun May 21 09:37:40 2017 +1000
+
+    Fixed Total Delivery Distance and Updated PizzaCalcs widget positioning
+
+commit 941f768af38a1e06b3be1a8828e292bba49971aa
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Thu May 18 00:21:13 2017 +1000
+
+    Fixed the Costings tab, albiet in a crude way
+
+commit 21a998c60be43403f08fca85eb4a6eb0c4c14823
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Wed May 17 23:05:06 2017 +1000
+
+    Added/Fixed More tests, Fixed checkDeliveryTime.
+
+commit 8482a576e2c02637cae27e36a9a250b29eec0d4a
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Wed May 17 19:18:57 2017 +1000
+
+    fixed the exception error with log3
+
+commit 80dbe254c32992c6bd8faf62b302553ed848fa01
+Merge: 81cc6e6 6d33024
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Wed May 17 19:15:57 2017 +1000
+
+    Merge branch 'GUIDesign' of
+    https://MichaeldeClosey@bitbucket.org/sbett7/cab302_assignment_2.git
+    into GUIDesign
+    
+    Conflicts:
+            src/asgn2Pizzas/Pizza.java
+
+commit 81cc6e624234a60659a8234bcb9eaa29194cf599
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Wed May 17 19:11:21 2017 +1000
+
+    trying to fix my branch
+
+commit 6d330246796ac4bc353bdfa6dc988ae693891a35
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 17 15:19:04 2017 +1000
+
+    Merged Pizza delivery time fix into branch
+
+commit b4c38df31746de60352ad0b8c981ee1aee8ab5fc
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Wed May 17 14:37:04 2017 +1000
+
+    Fixed some exceptions in LogHandlerPizzaTests
+
+commit fe79e9fe2c53fa5f9c709c10ef87bca545c0f361
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 17 12:54:07 2017 +1000
+
+    Fixed issues with the Pizza tests.
+
+commit 8ede35815eeccf774c4f3ed44099b6b79bc8e2b4
+Merge: 6197568 8d38fd3
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 17 12:32:23 2017 +1000
+
+    Merge branch 'PizzaTests' into GUIDesign
+    
+    Conflicts:
+            src/asgn2Tests/LogHandlerPizzaTests.java
+            src/asgn2Tests/PizzaFactoryTests.java
+            src/asgn2Tests/PizzaTests.java
+
+commit 61975688647bef4813879272be66a244dc04db72
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 17 12:22:14 2017 +1000
+
+    GUI now loads data.  Columns are locked in place now.
+
+commit a1e5f5762f7aaca820f0f549f30b6c0272a290b2
+Merge: d96ee46 3159467
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 17 12:09:38 2017 +1000
+
+    Merge branch 'CustomerImplementation' into GUIDesign
+    
+    Conflicts:
+            src/asgn2GUIs/PizzaGUI.java
+
+commit 31594677d318c686956f8572759c6b347825d4f4
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 17 12:06:34 2017 +1000
+
+    Updated CustomerLogHandler to throw new exceptions for non customer
+    exceptions
+
+commit 8d38fd3bde34ee0af7c0e28f8aa541aea8ba8ed8
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 15 12:28:40 2017 +1000
+
+    Fixed broken tests and added comment headers to each test.
+
+commit 15bec84f9c7763bb6ed5ff4efc55d527ab259034
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 14 23:40:32 2017 +1000
+
+    Finalised (added missing) tests for Customer
+
+commit ec78a7d9d8f4c0b28221e405f737a89b51db2545
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 14 23:33:47 2017 +1000
+
+    Removed unused variables in tests
+
+commit d5fbb242ce03d35fab125f7feb79ea1205b8551f
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 14 23:32:53 2017 +1000
+
+    Fixed CustomerFactoryTests
+
+commit f440479a7e9b87d3f6e0b748dfdebb0b6c1899d6
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sat May 13 00:26:24 2017 +1000
+
+    Last additions before bed.
+
+commit 46285769ac553e02af843fcdcb3cbf03c874f45d
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sat May 13 00:20:13 2017 +1000
+
+    Small Changes
+
+commit 92849012e91c977e068c461d4ec128c8119088be
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sat May 13 00:16:23 2017 +1000
+
+    Added and Changed CustomerTests
+
+commit f31c7d57e7673a259bb23d6c0604d7a6acc21619
+Author: Michael de Closey <mikey_95@live.com.au>
+Date:   Wed May 10 20:40:30 2017 +1000
+
+    Changed LogHandlerPizzaTests expected Exception to match format.
+
+commit abf14a06daba1de0e492f7410978c3c840511a42
+Merge: bdcb0f6 cd23b58
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Wed May 10 20:00:16 2017 +1000
+
+    Implemented PizzaFactory, PizzaLogHandler, changed .now() for
+    PizzaFactoryTests
+
+commit cd23b58fdb433d11df44f778962b63632d0a00d9
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 10 13:51:37 2017 +1000
+
+    Implemented restaurant methods.
+
+commit d96ee46af68880b3487b26642dfa19acf382e74f
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed May 10 10:33:52 2017 +1000
+
+    Table now fills GUI, and methods to fill data structs have been added.
+
+commit 7b0e3dc7b10d29f3f823a5e08cbd5e080c942ede
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 8 08:46:42 2017 +1000
+
+    fixed some tests and updated factory and loghandler implementation
+
+commit a98ff235e44e5985adc5148231d53387a554ec5d
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 8 07:30:58 2017 +1000
+
+    removed calls to LocalTime.now. Also removed failed duplicate test
+
+commit bdcb0f692d86aa4cb408fbfd8d1a2662d50165ed
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Mon May 8 01:12:18 2017 +1000
+
+    Pizza Implemented, small changes to Pizza tests. All tests pass
+
+commit 03f092ab30dfa162721d4b420dbd71f42c0de6c5
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Sun May 7 22:28:04 2017 +1000
+
+    added JTable data population methods.
+
+commit 4bfb08f84a6545f91457dc61d5c95afdaa6aa5aa
+Merge: 2bb3a03 c25fbde
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 7 20:01:51 2017 +1000
+
+    Merge remote-tracking branch 'michael/CustomerImplementation'
+
+commit 2bb3a03678b4addfa99c870f86abc32626cb3b8a
+Merge: 7904a6b a7bd1d5
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Sun May 7 19:44:05 2017 +1000
+
+    Merge remote-tracking branch 'michael/PizzaTests'
+
+commit c25fbde04ab4de05ef9e0f8085470b76438b2889
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Tue May 2 17:46:36 2017 +1000
+
+    started implementation of customer log handler class
+
+commit 14057213dc5d53bda09ea5df3bc7fd5f76c95512
+Merge: eb5c58f 530d158
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Tue May 2 13:40:08 2017 +1000
+
+    Merge branch 'CustomerImplementation' into MichaelLocal
+    
+    Conflicts:
+            src/asgn2Tests/CustomerFactoryTests.java
+            src/asgn2Tests/CustomerTests.java
+
+commit 530d1588a123fe2e4a9a45c77dfde162b699f959
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Tue May 2 00:31:31 2017 +1000
+
+    CustomerFactory Changes
+
+commit 214b5732fe0bd06d66a4ccbd861aa3088a1c9974
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Tue May 2 00:24:27 2017 +1000
+
+    Customer Fixes
+
+commit a7bd1d50e1ccb70024944603cc8c85de0ab209ea
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Tue May 2 00:02:55 2017 +1000
+
+    Fixed PizzaFactory tests to create a pizza based on the pizza log codes.
+
+commit eb5c58f987b896abdb85c231bf410b95862d0ff2
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 23:56:32 2017 +1000
+
+    Added implementation to Customers and made some fixes to test cases.
+
+commit 020dcf6ea65019644ab7d6a249fbce82ffbeb3d0
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Mon May 1 23:10:37 2017 +1000
+
+    initial LogHandlerCustomerTests, just need to finish
+    PopulateCustomerDataset tests
+
+commit a9436829b4bfa3ad263619e1404dde546aea3314
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Mon May 1 22:10:55 2017 +1000
+
+    Fixed CustomerTests and Added CustomerFactoryTests.
+
+commit c3f51fefa23458ca7a996185933fa9d79b61aba5
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 20:49:53 2017 +1000
+
+    Added classes extending DefaultTableModel and JPanel to be used for GUI
+
+commit 77426f121d417fe7aa17c5f6dff043b8908907b5
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 19:33:54 2017 +1000
+
+    Added assertEquals on fail comment to some tests.
+
+commit 06d00ee806ea4168e8db3bd8de7b1568d9822242
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 19:21:14 2017 +1000
+
+    Added string constant for exception txt file dir.
+
+commit 2565d5ae22b5bb288043d9f5b0a79916dccfeb37
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 19:14:01 2017 +1000
+
+    Added more tests to LogHandlerPizzaTests. Added .txt files for tests.
+
+commit 7904a6bb8e298871c549f0f53b3cdc5495fc396a
+Author: mdeclosey <mikey_95@live.com.au>
+Date:   Mon May 1 19:12:57 2017 +1000
+
+    Test Cases for basic functionality of Customer Class
+
+commit 9d3310c3da00426f71e54c312d3089ce3108deaf
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 16:55:44 2017 +1000
+
+    Changed Tests to access LogHandler static methods rather than object.
+
+commit 6692595a4a19838815d5826e536d36ca6597e45d
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 16:10:54 2017 +1000
+
+    Fixed log file constants in restaurant pizza tests to access a full path
+
+commit f74e4a778ce6cb203133bd72e27c474972aac54f
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 15:17:24 2017 +1000
+
+    Changed filechooser to pass the string path to the restaurant.
+
+commit 8f46c2254c315cf88c5037460f465a40c89c4060
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Mon May 1 15:06:21 2017 +1000
+
+    Added FileChooser button and hooked up FileChooser to get log file.
+
+commit be70e7015f5cc3b9fca22747154e0b9ad357dd2e
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Apr 27 20:10:27 2017 +1000
+
+    Added createPizza tests for LogHandler
+
+commit 4c2fb3df664864ad3ea1185c9d8bc2b66c067683
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Apr 27 12:01:06 2017 +1000
+
+    Added tests for Restaurant class.
+
+commit 51365f68316a99d510d7754647410e035b0bd42e
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Thu Apr 27 10:33:12 2017 +1000
+
+    Added VegetarianPizza and MeatLoverPizza Tests.
+
+commit c3f2ce93adddbfa0a82500fa7193ce6bea18420c
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed Apr 26 16:19:10 2017 +1000
+
+    Added PizzaTests and updated PizzaFactoryTests.
+
+commit a3e3ab37d8ba95a37b3f9a9561be2b7a836094e6
+Author: Sean Betts <seanbetts_0@hotmail.com>
+Date:   Wed Apr 26 10:19:41 2017 +1000
+
+    Added PizzaFactory quantity and pizza code tests.
+
+commit 434d3ada012f0e03d37b9527d8f9bdff01ca572b
+Author: alan <awoodley@qut.edu.au>
+Date:   Tue Apr 25 18:36:28 2017 +1000
+
+    .
+
+commit f748592b2f1fe58edc493dfacce042ef85c91244
+Author: alan <awoodley@qut.edu.au>
+Date:   Tue Apr 25 18:05:34 2017 +1000
+
+    .
+
+commit dfba34718a2fd75e1bc3721b8770c7466003ab56
+Author: alan <awoodley@qut.edu.au>
+Date:   Tue Apr 25 18:04:54 2017 +1000
+
+    .
+
+commit e951c1e8b6ea69b11df52b6f3f175173c920375e
+Author: awoodley <a.woodley@qut.edu.au>
+Date:   Tue Apr 25 06:32:36 2017 +0000
+
+    .
